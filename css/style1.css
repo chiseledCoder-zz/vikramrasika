@@ -1,0 +1,116 @@
+@import url(http://fonts.googleapis.com/css?family=Parisienne);
+body{
+	margin:0px;
+	background-color:#531112;
+}
+.enter
+{
+	position:relative;
+	margin:0px;
+}
+.enter a
+{
+	text-decoration:none;
+	font-family: 'Parisienne', cursive;
+}
+
+.bottom
+ {
+	position:fixed;
+	top:85%;
+	margin-left:67%;
+	font-size:30px;
+	color:#F8EF6E;
+	font-weight:bold;
+}
+.bottom:hover
+{
+	color:#FFF;
+}
+.hero #cafe {
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	font: 0/0 serif;
+	text-shadow: none;
+	color: transparent;
+	background-size: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	height:auto;
+}
+.hero #cafe .inner {
+	padding-top: 47%; /* height/width of image */
+	display: block;
+	height: 0;
+}
+.ac_footer{
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	font-size:13px;
+	background:#260126;
+	height:20px;
+	padding-bottom:5px;
+	opacity:0.8;
+}
+.ac_footer a{
+	padding:5px 10px;
+	letter-spacing:1px;
+	text-shadow:1px 1px 1px #000;
+	color:#ddd;
+	float:right;
+	text-decoration:none;
+}
+.footer a:hover{
+	color:#fff;
+}
+.ac_footer a span{
+	font-weight:bold;
+}
+.ac_footer a.ac_left{
+	float:left;
+}
+/* default screen, non-retina */
+.hero #cafe { background-image: url("../images/Default.jpg"); }
+
+@media only screen and (max-width: 320px) {
+    /* Small screen, non-retina */
+    .hero #cafe { background-image: url("../images/Default.jpg"); }
+	.enter a
+	{
+		font-size:14px;
+	}
+}
+@media
+only screen and (min-resolution: 2dppx) and (max-width: 320px) {
+    /* Small screen, retina */
+    .hero #cafe { background-image: url("../images/Default@2x.jpg"); }
+	.enter a
+	{
+		font-size:14px;
+	}
+}
+@media only screen and (min-width: 321px) and (max-width: 538px) {
+    /* Medium screen, non-retina */
+    .hero #cafe { background-image: url("../images/Default.jpg"); }
+}
+@media
+only screen and (min-resolution: 2dppx) and (min-width: 321px) and (max-width: 538px) {
+    /* Medium screen, retina */
+    .hero #cafe { background-image: url("../images/Default@2x.jpg"); }
+	.enter a
+	{
+		font-size:14px;
+	}
+}
+@media
+only screen and (min-resolution: 2dppx) and (min-width: 539px) {
+    /* Large screen, retina */
+    .hero #cafe { background-image: url("../images/Default@2x.jpg");	}
+	.enter a
+	{
+		font-size:14px;
+	}
+}
