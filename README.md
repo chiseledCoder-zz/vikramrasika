@@ -1,5 +1,5 @@
 # Vikram and Rasika
-### About this project 
+### About this Project 
 This project is kind of unique for me, as it was the first time I had to capture the essence of a wedding. Through this project, the guests of the couple were given a virtual invitation and website also had information about the know-about the groom and the bride.
 
 ### Major Functionalities
